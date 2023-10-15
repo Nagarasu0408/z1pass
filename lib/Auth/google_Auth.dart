@@ -12,7 +12,7 @@ class _GoogleAuthState extends State<GoogleAuth> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Text("Hello World"),
+      home: Text("Hello World "),
     );
   }
 }

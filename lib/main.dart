@@ -1,10 +1,17 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:z1pass/firebase_options.dart';
 
-void main(){
+import 'Auth/Loginpage.dart';
+
+void main()async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(MaterialApp(
-    theme: ThemeData(fontFamily: 'RobotoMono'),
     debugShowCheckedModeBanner: false,
-    home: Z1pass(),));
+    home: LoginPage(),));
 }
 class Z1pass extends StatelessWidget {
   const Z1pass({super.key});

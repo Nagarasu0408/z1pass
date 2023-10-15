@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "476996211974",
+    "project_id": "z1pass",
+    "storage_bucket": "z1pass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476996211974:android:583b80a2222c39ad21fa87",
+        "android_client_info": {
+          "package_name": "com.example.z1pass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4JZ8Zl2I6y1qxBPWtkKf2YCtYuA4QW6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
